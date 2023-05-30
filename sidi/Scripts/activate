@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\sidma\OneDrive\Área de Trabalho\API BLOG\sidi"
+VIRTUAL_ENV="C:\Users\sidma\OneDrive\Área de Trabalho\API BLOG\API-BLOG\sidi"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

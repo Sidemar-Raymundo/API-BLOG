@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\sidma\OneDrive\Área de Trabalho\API BLOG\sidi
+set VIRTUAL_ENV=C:\Users\sidma\OneDrive\Área de Trabalho\API BLOG\API-BLOG\sidi
 
 if not defined PROMPT set PROMPT=$P$G
 

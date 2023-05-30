@@ -3,6 +3,7 @@
 #ACONTECEU DE EU NÃO PRESTAR ATENÇÃO E ALTERAR O USUÁRIO E SENHA E DAR ERRO NO POSTMAN E FIQUEI BOIANDO, (CUSTEI DESCOBRIR O MOTIVO 😒)
 #
 
+
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
@@ -10,7 +11,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 # Criar um instância de SQLAlchemy
 app.config['SECRET_KEY'] = 'FSD2323f#$!SAH'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blog.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:0emAGz4ilQzqnKdsaCbJ@containers-us-west-150.railway.app:6445/railway'
 
 db = SQLAlchemy(app)
 db: SQLAlchemy
